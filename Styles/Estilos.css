@@ -34,18 +34,36 @@
 .navt:hover h1 {
     color: orange;
     cursor: pointer; 
-    align-items: center;  
-    
+}
+
+.container1 {
+    display: grid;
+    grid: 150px / auto auto;
 }
 
 .aside_aside {
     background-color: #fdfd96;
-    display: flex;
+    display: grid;
     place-items: center;
-    
+    padding: 20px;
 }
 .asidet:hover h1 {
     color: orange;
     cursor: pointer;
-    align-items: center;
+}
+
+
+
+
+.main_main {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background-color: #ffbb8d;
+}
+
+.maint:hover h1 {
+    color: orange;
+    cursor: pointer;
+
 }
