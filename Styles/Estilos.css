@@ -2,6 +2,8 @@
 
 * {
     margin: 0%;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .body {
@@ -160,26 +162,37 @@
     margin-top: 20px;
     margin: 10px;
     border-radius: 15px;
-    padding-bottom: 300px;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 5px;
-}
+
 
 .caja_caja {
+    display:grid;
+    grid-template-columns: auto auto auto;   
+}
+ .caja_caja > h1 {
     border: 2px solid black;
-    display: grid;
-    place-items: center;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
     background-color: salmon;
-    margin-top: 20px;
-    margin: 10px;
     border-radius: 15px;
-    padding-bottom: 300px;
+    margin: 10px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+ }
+.hover1:hover{
+    color: orange;
+    cursor: pointer;
+}
+.hover2:hover{
+    color: orange;
+    cursor: pointer;
+}
+.hover3:hover{
+    color: orange;
+    cursor: pointer;
 }
 
 .footer_footer {
@@ -198,3 +211,11 @@
     color: orange;
     cursor: pointer;
 }
+
+  .container > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
