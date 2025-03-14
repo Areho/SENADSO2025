@@ -16,6 +16,9 @@
     text-align: center;
     background-color: cornflowerblue;
     padding-top: 2%;
+    margin: 10px;
+    border-radius: 10px; 
+    border: 2px solid black;
 }
 
 .headert:hover h1 {
@@ -28,6 +31,9 @@
     display: grid;
     place-items: center;
     background-color: magenta;
+    margin: 10px;
+    border-radius: 10px; 
+    border: 2px solid black;
 
 }
 
@@ -37,15 +43,19 @@
 }
 
 .container1 {
-    display: grid;
-    grid: 150px / auto auto;
+    display: flex;
+    grid: auto / auto auto 
 }
 
 .aside_aside {
+    border: 2px solid black;
+    margin: 10px;
     background-color: #fdfd96;
     display: grid;
     place-items: center;
     padding: 20px;
+    width: 40%;
+    border-radius: 15px;
 }
 .asidet:hover h1 {
     color: orange;
@@ -53,17 +63,138 @@
 }
 
 
-
-
 .main_main {
+    border: 2px solid black;
+    margin: 10px;
     display: grid;
-    place-items: center;
+    text-align: center;
     padding: 20px;
     background-color: #ffbb8d;
+    padding-bottom: 100px;
+    width: 60%;
+    border-radius: 15px;
 }
 
 .maint:hover h1 {
     color: orange;
     cursor: pointer;
 
+}
+
+.article_article {
+    border: 2px solid black;
+    margin: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    
+}
+
+.articlet:hover h1 {
+    color: orange;
+    cursor: pointer;
+}
+
+.figure_figure {
+    border: 2px solid black;
+    margin: 10px;
+    display: grid;
+    place-items: center;
+    padding: auto;
+    background-color: rosybrown;
+    width: 90%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-radius: 15px;
+}
+
+.figuret:hover h1{
+    color: orange;
+    cursor: pointer;
+}
+
+.p_p {
+    border: 2px solid black;
+    margin: 10px;
+    display: grid;
+    place-items: center;
+    padding: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: lightgreen;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.pt:hover {
+    color:  orange;
+    cursor: pointer;
+}
+
+.section_section {
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.sectiont:hover h1 {
+    color: orange;
+    cursor: pointer;
+}
+
+.section_section2 {
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background-color: lightgreen;
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    padding-bottom: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 5px;
+}
+
+.caja_caja {
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background-color: salmon;
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    padding-bottom: 300px;
+}
+
+.footer_footer {
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background-color: plum;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 20px
+    
+}
+
+.footert:hover h1 {
+    color: orange;
+    cursor: pointer;
 }
